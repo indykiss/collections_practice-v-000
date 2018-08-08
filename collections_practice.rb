@@ -52,7 +52,10 @@ def kesha_maker(arr)
 end 
 
 
-def 
+def find_a 
+  
+  
+end 
 
 
 
