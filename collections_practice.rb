@@ -44,6 +44,7 @@ def kesha_maker(arr)
     str.each_with_index do |letter, index|
       if index == 2 
         letter = $
+      end 
       new_arr << letter
       end
   str += 1 
