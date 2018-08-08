@@ -37,13 +37,13 @@ end
 
 def kesha_maker(arr)
   
-  i = 0 
-  while i < arr.length
-  yield(arr[i]) = "$"
-    i += 1 
-  end
-  arr
-end 
+  str = 0 
+  while str < arr.length
+    
+    str.each_with_index do |letter, index|
+      
+
+ 
 end 
 
 
