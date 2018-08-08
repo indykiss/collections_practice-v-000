@@ -49,7 +49,7 @@ def find_a(arr)
   
   new_arr = []
   arr.each do |word|
-    if word[0] = "a"
+    if word.starts_with? = "a"
       new_arr << word 
     
   end 
