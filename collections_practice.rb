@@ -47,6 +47,10 @@ end
 
 def find_a(arr)
   
+  new_arr = []
+  arr.each do |word|
+    if word[0] = "a"
+      new_arr << word 
  
 end 
 
