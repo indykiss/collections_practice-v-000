@@ -63,8 +63,10 @@ def sum_array(arr)
 end 
 
 
-def add_s 
+def add_s(arr) 
   
+  
+  [1,2].each_with_index.collect{|element, index| }
   
 end 
 
