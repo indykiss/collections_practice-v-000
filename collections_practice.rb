@@ -6,4 +6,8 @@ def sort_array_asc(arr)
 end 
 
 
-def 
+def sort_array_desc(arr)
+  desc_arr = arr.reverse
+  desc_arr.sort
+end 
+  
