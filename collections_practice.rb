@@ -53,11 +53,6 @@ end
 
 
 def find_a(arr)
-
-compare_against = "a"
-arr.all?{|i| i[0].start_with?(compare_against)}
-
-
   
 end 
 
