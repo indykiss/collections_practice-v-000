@@ -64,7 +64,7 @@ end
 def add_s(arr) 
   #not quite
    arr.each do |word|
-    word.prepend("s")
+    word += "s"
   end
 end 
 
