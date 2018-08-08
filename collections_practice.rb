@@ -47,7 +47,6 @@ def kesha_maker(arr)
     new_arr << word 
  
  end 
-binding.pry 
 end 
 
 
