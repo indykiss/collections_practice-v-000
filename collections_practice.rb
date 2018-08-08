@@ -67,7 +67,7 @@ def add_s(arr)
     new_word = word + "s"
     new_arr << new_word
   end
-  
+  new_arr
 end 
 
 
