@@ -49,7 +49,7 @@ def find_a(arr)
   
   arr.each do |word|
     word.prepend("s")
-  
+  end
 end 
 
 
