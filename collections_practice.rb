@@ -46,7 +46,7 @@ def kesha_maker(arr)
         letter = $
       end 
       new_arr << letter
-      end
+      
   str += 1 
   end 
 
