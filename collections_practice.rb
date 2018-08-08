@@ -2,10 +2,8 @@
 
 
 def sort_array_asc(arr)
-  
-  arr.sort
-  
-  
-  
-  
+  arr.sort 
 end 
+
+
+def 
