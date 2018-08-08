@@ -24,14 +24,10 @@ end
 
 def swap_elements(array)
   new_arr = []
-
   new_arr << array[0]
   new_arr << (array[1], array[2] = array[2], array[1])
-
   new_arr.flatten
-  
 end 
-
 
 
 def reverse_array(arr) 
@@ -39,7 +35,6 @@ def reverse_array(arr)
 end 
 
 
-# come back later
 def kesha_maker(arr)
   new_arr = []
   arr.each do |word|
