@@ -43,7 +43,7 @@ def kesha_maker(arr)
     
     str.each_with_index do |letter, index|
       if index == 2 
-        letter = $
+        letter = "$"
       end 
       new_arr << letter
       
