@@ -65,7 +65,7 @@ def add_s(arr)
   new_arr = []
    arr.each do |word|
     new_word = word + "s"
-    
+    new_arr << new_word
   end
   
 end 
