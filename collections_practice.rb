@@ -67,6 +67,8 @@ def add_s(arr)
     if index != 1
     new_word = word + "s"
     new_arr << new_word
+      elsif index = 1 
+        new_arr << word
   end
 end
 new_arr
