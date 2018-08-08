@@ -46,7 +46,6 @@ def kesha_maker(arr)
     kesha_word = "" 
     kesha_word << word[2] = "$"
     new_arr << kesha_word 
- 
  end 
 end 
 
