@@ -54,6 +54,10 @@ end
 
 def find_a(arr)
 
+compare_against = "http://s3.amazonaws.com"
+urls.all?{|url_array| url_array[0].start_with?(compare_against)}
+
+
   
 end 
 
