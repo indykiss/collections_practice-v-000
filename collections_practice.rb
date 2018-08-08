@@ -47,9 +47,7 @@ end
 
 def find_a(arr)
   
-  arr.each do |word|
-    word.prepend("s")
-  end
+ 
 end 
 
 
@@ -59,8 +57,10 @@ end
 
 
 def add_s(arr) 
-  
-  
+  #not quite
+   arr.each do |word|
+    word.prepend("s")
+  end
 end 
 
 
