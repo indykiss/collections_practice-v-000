@@ -41,7 +41,8 @@ def kesha_maker(arr)
   while str < arr.length
     
     str.each_with_index do |letter, index|
-      
+      if index == 2 
+        letter = $
 
  
 end 
