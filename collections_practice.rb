@@ -53,13 +53,12 @@ end
 
 
 def find_a(arr)
-  
-  arr.find?("a")
+
   
 end 
 
 
-
+def 
 
 
 
