@@ -35,21 +35,18 @@ def reverse_array(arr)
 end 
 
 
+# come back later
 def kesha_maker(arr)
-  
   new_arr = []
   str = 0 
   while str < arr.length
-    
     str.each_with_index do |letter, index|
       if index == 2 
         letter == "$"
       end 
       new_arr << letter
-      
   str += 1 
-  end 
-
+  end
   new_arr
  end 
 end 
