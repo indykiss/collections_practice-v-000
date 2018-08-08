@@ -1,6 +1,3 @@
-
-
-
 def sort_array_asc(arr)
   arr.sort 
 end 
@@ -13,7 +10,6 @@ end
   
   
 def sort_array_char_count(arr)
-  
   arr.sort do |a, b|
   if a.length == b.length
     0
@@ -24,3 +20,6 @@ def sort_array_char_count(arr)
   end
 end
 end 
+
+
+def 
