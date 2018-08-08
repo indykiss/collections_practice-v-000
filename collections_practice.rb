@@ -44,7 +44,7 @@ def kesha_maker(arr)
   new_arr = []
   arr.each do |word|
     kesha_word = "" 
-    kesha_word << word[3] = "$"
+    kesha_word << word[2] = "$"
     new_arr << kesha_word 
  
  end 
