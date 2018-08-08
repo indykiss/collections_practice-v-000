@@ -26,7 +26,7 @@ def swap_elements(array)
   new_arr = []
 
   new_arr << array[0]
-  (array[1], array[2] = array[2], array[1])
+  new_arr << (array[1], array[2] = array[2], array[1])
 
   new_arr
   
