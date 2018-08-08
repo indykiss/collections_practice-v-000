@@ -60,7 +60,7 @@ end
 
 def sum_array(arr)
   
-  
+  arr.inject(0){|sum,x| sum + x }
   
 end 
 
