@@ -46,14 +46,13 @@ end
 
 
 def find_a(arr)
-  
   new_arr = []
   arr.each do |word|
     if word.start_with?("a")
       new_arr << word 
   end 
 end 
- new_arr
+new_arr
 end 
 
 
