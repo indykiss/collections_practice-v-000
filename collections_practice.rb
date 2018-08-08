@@ -45,7 +45,8 @@ def kesha_maker(arr)
   str = 0 
   while str < arr.length
     str.each_with_index do |letter, index|
-      if index == 2 
+      if index == 2
+        # problem here:
         letter == "$"
       end 
       new_arr << letter
