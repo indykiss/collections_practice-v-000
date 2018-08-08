@@ -42,17 +42,12 @@ end
 # come back later
 def kesha_maker(arr)
   new_arr = []
-  arr.each_with_index do |word, index|
-    
-      if index == 2
-        # problem here:
-        letter == "$"
-      end 
-      new_arr << letter
-  str += 1 
-  end
-  new_arr
+  arr.each do |word|
+    word = 
+    new_arr << word 
+ 
  end 
+binding.pry 
 end 
 
 
