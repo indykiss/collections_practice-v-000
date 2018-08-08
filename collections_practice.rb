@@ -64,7 +64,6 @@ end
 def add_s(arr) 
   new_arr = []
    arr.each_with_index do |word, index|
-    if index !== 1
     new_word = word + "s"
     new_arr << new_word
   end
